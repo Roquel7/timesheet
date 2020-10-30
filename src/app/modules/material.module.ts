@@ -9,9 +9,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
-
-
-
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [],
@@ -24,7 +22,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatListModule,
     MatInputModule,
     MatFormFieldModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatTabsModule
 
   ],
   exports: [
@@ -35,7 +34,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatListModule,
     MatInputModule,
     MatFormFieldModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatTabsModule
 
   ]
 })
